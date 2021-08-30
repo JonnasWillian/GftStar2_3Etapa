@@ -26,11 +26,11 @@ namespace Questão2
                 div7++;
             }
 
-            if (div3 == 1 && div6 == 1 && div7 == 0)
+            if (div3 == 0 && div6 == 0 && div7 == 0)
             {
                 Console.WriteLine("O número é divisivel por 3,6 e 7");
             }
-            else if (div3 == 1 && div6 == 1)
+            else if (div3 == 0 && div6 == 0)
             {
                 Console.WriteLine("O número é divisivel por 3 e 6");
             }
@@ -38,7 +38,7 @@ namespace Questão2
             {
                 Console.WriteLine("O número pe divisivel por 3 e 7");
             }
-            else if (div3 == 1)
+            else if (div3 == 0)
             {
                 Console.WriteLine("O número é divisivel por 3");
             }
